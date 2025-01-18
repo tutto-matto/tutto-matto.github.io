@@ -1,0 +1,25 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  color: #1d094c;
+  background-color: #fffff2;
+}
+
+.main {
+  margin-left: 320px;
+  padding: 0 10px;
+}
+
+.sidenav {
+  width: 320px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
