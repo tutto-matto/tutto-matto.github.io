@@ -5,14 +5,13 @@
 {% include head.html %}
 
 <body>
+    <header>
+      <a href="{{ site.baseurl }}/"><img src="/assets/images/favicon/favicon.svg" alt="TOMO" class="logo">
+      <a href="{{ site.baseurl }}/about/">about</a>
+    </header>
 
-    <div class="sidenav">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class="main">{{ content }}</div>
+    <div class="main">{{ content }}</div>
+  
 </body>
 
 
